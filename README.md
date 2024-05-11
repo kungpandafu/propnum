@@ -1,2 +1,2 @@
 # propnum
- simple cpp lib that calculates CRC number of polish land register property from given data.
+ simple cpp lib that calculates CRC number of polish land property register  from given data.

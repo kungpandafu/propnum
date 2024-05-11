@@ -26,7 +26,7 @@ int getNumberValues(std::string& str)
     int result = 0;
     int j = 0;
 
-    for(int i = 0; i < param.length(); i++, j = (j+1) % 3)
+    for(size_t i = 0; i < param.size(); i++, j = (j+1) % 3)
     {
         result += charToValue.at(param[i]) * wages[j];
     }
